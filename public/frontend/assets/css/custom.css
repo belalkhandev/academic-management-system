@@ -1,0 +1,125 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    /* background: linear-gradient(to bottom, #0fa70f, #68188d); */
+    background-color: rgb(99, 99, 99);
+    opacity: 0.5;
+    border-radius: 20px;
+}
+ #responsive_menu {
+     display: none;
+ }
+.slicknav_menu {
+    background: none;
+}
+
+.slicknav_nav a {
+    color: #222222;
+    font-weight: 600;
+    text-transform: uppercase;
+    outline: none;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.slicknav_menu ul ul {
+    background: #e0e0e0;
+}
+
+.slicknav_menu ul li.slicknav_parent ul li a {
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.slicknav_menu ul li:hover ul li a,
+.slicknav_menu ul li.slicknav_parent:hover ul li a {
+    color: #222222;
+    text-transform: capitalize;
+}
+
+
+.slicknav_menu ul li:hover a,
+.slicknav_menu ul li.slicknav_parent:hover a {
+    background: none;
+    color: #d90d3d;
+}
+
+.slicknav_menu ul li:hover .sub-menu li:hover a {
+    color: #d90d3d;
+}
+
+.slicknav_nav a a {
+    border: none;
+}
+
+.slicknav_nav a:hover {
+    border-radius: 0px;
+}
+
+@media screen and (max-width: 991px) {
+    #mainMenu {
+        display: none;
+    }
+
+    #responsive_menu {
+        display: block;
+    }
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.owl-dot {
+    width: 20px;
+    height: 3px;
+    background: #e6e6e6 !important;
+    z-index: 999;
+    margin-right: 5px;
+    outline: none;
+}
+
+.owl-dot.active {
+    background: #ff285b !important;
+    transition: 0.5s;
+    outline: none;
+}
+
+.single-slide img {
+    width: 100%;
+    max-height: 450px;
+}
+
+.all-notice {
+    padding-right: 0px;
+    overflow: hidden;
+    height: auto;
+    max-height: none;
+}
+
+.all-notice .notice-item {
+    margin-bottom: 20px
+}
+
+.notice-item h4 {
+    font-weight: 600;
+    font-size: 15px
+}
+
